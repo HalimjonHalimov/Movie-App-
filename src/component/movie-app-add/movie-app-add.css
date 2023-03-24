@@ -1,0 +1,47 @@
+.movie-app-add {
+    width: 100%;
+    height: auto;
+}
+.movie-app-add h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.movie-app-add form {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.movie-app-add input[type="text"] {
+    width: 220px;
+    height: 45px;
+    padding: 0 4px;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    outline: none;
+}
+.add-movie {
+    width: 120px;
+    height: 45px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    transition: all 0.4s ease-in-out;
+}
+.add-movie:hover {
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+}

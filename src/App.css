@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.movie {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+.movie-app {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow:  0 0 4px 0.1px #000;
+}

@@ -1,0 +1,79 @@
+.movie-app-list {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.list-item-name {
+    width: 40%;
+    height: auto;
+    line-height: 24px;
+    padding: 8px 4px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    text-align: start;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.list-item-viever {    
+    width: 10%;
+    height: auto;
+    padding: 4px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 400;
+    background-color: antiquewhite;
+}
+.list-item-group {
+    width: 12%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.list-item-group button {
+    width: 1.8rem;
+    height: 1.8rem;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+}
+.list-item-group button:hover {
+    cursor: pointer;
+    color: #fff;
+    background: rgb(0, 0, 0, 0.2);
+}
+.like {
+    color: #ff0000;
+}
+.trash {
+    color: rgb(127, 135, 179);
+}
+.list-item-group .fa-star {
+    font-size: 18px;
+    color: #f8be00;
+    transform: translateX(10px);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.favourite .fa-star {
+    transform: translateX(0);
+    opacity: 1;
+}
+.favourite .list-item-name {
+    color: #fa9614;
+}
